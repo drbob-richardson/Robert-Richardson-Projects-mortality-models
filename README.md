@@ -15,34 +15,33 @@ Methods and full results are detailed in the peer-reviewed papers below:
 ## Highlights
 
 ### 1) Regional patterns in male mortality curves
-![3 Hierarchical Clusters of Male Mortality Curves](./images/mhc_3_map.png)
 
-**What it shows:** a data-driven clustering of **male mortality curve shapes** across counties, revealing broad west/central vs east patterning and local anomalies.  
-**Takeaway:** strong geography remains after adjusting for age effects; this motivates spatial pooling and CAR structure in the hierarchical model. (Modeling approach described in the paper’s methods section.) :contentReference[oaicite:1]{index=1}
+We clustered mortality curves in the U.S. by county. We discovered that mortality models with only 3 clusters, which are roughly urban, rural, and ultra-rural, performs better for forecasting mortality than doing a state-level model. Our 3 cluster-model outperformed a 48 cluster model by using intelligent clustering. 
+
+![3 Hierarchical Clusters of Male Mortality Curves](./images/mhc_3_map.png)
+This figure shows the 3 clusters we derived using heriarchical clustering on the coefficients of county level splines regression models of mortality. 
+
 
 ---
 
 ### 2) COVID vs. Post-COVID shifts by age & sex
+We built models to exam suicide rates by county over time to examine what factors affect trends over time. By being careful with data and using effective modeling, we discovered that the Covid-19 lockdown actually deceased suicides for many age groups, including the youngest age groups where suicides had been increasing rapidly prior to the Covid -19 lockdown. 
 <div align="center">
   <img src="./images/_cred_int_covidTRUE_male_female-2.jpg" alt="COVID-19 impact by age and sex" width="420"/>
   <img src="./images/_cred_int_after_covidTRUE_male_female-2.jpg" alt="Post-COVID impact by age and sex" width="420"/>
 </div>
 
-**What it shows:** estimated **coefficients** for COVID (2020–2021) and **after-COVID** (2022–2023) by age and sex. In the paper, COVID effects shrink once post-COVID is included, and patterns differ by sex/age. See the discussion around the COVID indicators and Figures 6–7 in the manuscript. :contentReference[oaicite:2]{index=2}
+**What it shows:** estimated **coefficients** for COVID (2020–2021) and **after-COVID** (2022–2023) by age and sex. In the paper, COVID effects shrink once post-COVID is included, and patterns differ by sex/age. 
 
 ---
 
-### 3) Spatial baseline risk (ϕ): example stratum
+### 3) Spatial baseline risk
+
+We can exmaine regions with elevated levels of suicide risk. We confirmed existing literature by isolating the regional effect and observing a "suicide belt" where the mid-west has elevated rates of suicide for otherwise similar regions across the U.S.
+
 ![Mean Spatial Effect (phi) – females 45–49](./images/phi_by_county_F10-2.jpeg)
 
-**What it shows:** posterior mean of **ϕ** (county-level baseline deviation) for a female age band. Note the broad corridor of elevated risk across the Mountain West and northern Plains—consistent with a “belt” seen in suicide literatures and our own spatial random-effect maps (see mapping figures and discussion). :contentReference[oaicite:3]{index=3}
-
----
-
-### 4) Demographic drift: proportion white by sex over time
-![Proportion White by Year, Sex Panels](./images/RaceRaw.png)
-
-**What it shows:** declining **proportion white** over 2000–2020 in both sexes, with different baselines by panel. Useful as a context plot for demographic composition changes referenced in the covariate section. (Derived from RaceRaw; see figure panels.) :contentReference[oaicite:4]{index=4}
+**What it shows:** posterior mean of **$\phi$** (county-level baseline deviation) for a female age band. Note the broad corridor of elevated risk across the Mountain West and northern Plains—consistent with a “belt” seen in suicide literatures and our own spatial random-effect maps.
 
 ---
 
