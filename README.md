@@ -55,8 +55,8 @@ We found a number of other relationships currently being explored, such as:
 
 ## Modeling (brief)
 
-We model deaths with a **binomial likelihood** and a **logit** link: $\logit(\theta_{kt}) = \mathbf{x}_{kt}^\top \beta + \psi_{kt},\quad 
-\psi_{kt} = \phi_k + (\alpha + \delta_k)\cdot \tfrac{t - \bar t}{T}$
+We model deaths with a **binomial likelihood** and a **logit** link: $$\logit(\theta_{kt}) = \mathbf{x}_{kt}\beta + \psi_{kt}, \quad 
+\psi_{kt} = \phi_k + (\alpha + \delta_k)\frac{t - \bar t}{T}$$
 with **CAR priors** on the spatial intercept $\phi$ and county-specific slope deviations $\delta$, plus weakly-informative priors on fixed effects. This supports **spatial smoothing** and **time-trend pooling** across neighboring counties. (Full details, priors, and estimation notes—including CARBayesST implementation—are in the papers.) 
 
 We examine two families of questions:
