@@ -53,27 +53,6 @@ We found a number of other relationships currently being explored, such as:
 3) Regional variation in the effects, e.g. in California, counties with higher unemployment have lower mortality whereas in the rest of the country higher unemployment has higher mortality. 
 
 
-## Modeling (brief)
-
-We model deaths with a **binomial likelihood** and a **logit** link: $$
-\operatorname{logit}(\theta_{k,t})
-= \boldsymbol{x}_{k,t}^{\mathsf T}\,\beta + \psi_{k,t},\quad
-\psi_{k,t} = \phi_k + (\alpha + \delta_k)\,\frac{t - \bar{t}}{T}.
-$$
-
-
-with **CAR priors** on the spatial intercept $\phi$ and county-specific slope deviations $\delta$, plus weakly-informative priors on fixed effects. This supports **spatial smoothing** and **time-trend pooling** across neighboring counties. (Full details, priors, and estimation notes—including CARBayesST implementation—are in the papers.) 
-
-We examine two families of questions:
-
-1) **Socio-economic models of suicide (2010–2023):** BA%, HPI, marriage rate, household size, %White, poor mental health days, etc., with COVID and after-COVID indicators. See the covariate table and results figures. :contentReference[oaicite:6]{index=6}  
-2) **Mental-health indicators vs outcomes:** MHA **positive screen rates** (depression, suicidal ideation, PTSD, psychosis risk) paired with **all-cause** and **suicide** outcomes, stratified by age × sex. :contentReference[oaicite:7]{index=7}
-
----
-
-
-
-
 ## Contact
 
 **Robert Richardson, PhD, ASA**  
