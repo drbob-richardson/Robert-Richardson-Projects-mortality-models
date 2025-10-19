@@ -6,10 +6,10 @@ This repo collects figures and references from ongoing projects on **county-leve
 - Spatial clustering and **baseline risk** (ϕ) surfaces,
 - Demographic context (e.g., changing racial composition).
 
-> Methods and full results are detailed in the peer-reviewed papers below:  
-> • **Richardson, R. & Li, Y. (2020).** *Spatio-Temporal Mortality Modeling for the United States: A Hierarchical Bayesian Approach.* **Risks, 8(4), 117.** [MDPI link](https://www.mdpi.com/2227-9091/8/4/117)  
-> • **Richardson, R. (2022).** *A Multivariate Spatio-Temporal Model for County-Level Mortality Data in the Contiguous United States.* **Annals of Actuarial Science.** [Cambridge University Press link](https://www.cambridge.org/core/journals/annals-of-actuarial-science/article/multivariate-spatiotemporal-model-for-countylevel-mortality-data-in-the-contiguous-united-states/96BF901C0B6ADE8F434D404653B665C2)  
-> • **Richardson, R. (2025).** *Mental Health and Mortality: Post-COVID Spatial Correlates in U.S. Counties.* **Journal of Insurance Issues.** [Taylor & Francis link](https://www.tandfonline.com/doi/abs/10.1080/10920277.2025.2463933)
+Methods and full results are detailed in the peer-reviewed papers below:  
+• **Richardson, R. & Li, Y. (2020).** *Spatio-Temporal Mortality Modeling for the United States: A Hierarchical Bayesian Approach.* **Risks, 8(4), 117.** [MDPI link](https://www.mdpi.com/2227-9091/8/4/117)  
+• **Richardson, R. (2022).** *A Multivariate Spatio-Temporal Model for County-Level Mortality Data in the Contiguous United States.* **Annals of Actuarial Science.** [Cambridge University Press link](https://www.cambridge.org/core/journals/annals-of-actuarial-science/article/multivariate-spatiotemporal-model-for-countylevel-mortality-data-in-the-contiguous-united-states/96BF901C0B6ADE8F434D404653B665C2)  
+• **Richardson, R. (2025).** *Mental Health and Mortality: Post-COVID Spatial Correlates in U.S. Counties.* **Journal of Insurance Issues.** [Taylor & Francis link](https://www.tandfonline.com/doi/abs/10.1080/10920277.2025.2463933)
 
 ## Highlights
 
