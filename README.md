@@ -3,13 +3,14 @@
 This repo collects figures and references from ongoing projects on **county-level U.S. mortality**, including:
 - Bayesian **spatio-temporal** modeling with CAR priors,
 - Post-COVID and “after-COVID” effects by **age × sex**,
-- Spatial clustering and **baseline risk** (ϕ) surfaces,
+- Spatial clustering and **baseline risk**,
 - Demographic context (e.g., changing racial composition).
 
 Methods and full results are detailed in the peer-reviewed papers below:  
-• **Richardson, R. & Li, Y. (2020).** *Spatio-Temporal Mortality Modeling for the United States: A Hierarchical Bayesian Approach.* **Risks, 8(4), 117.** [MDPI link](https://www.mdpi.com/2227-9091/8/4/117)  
-• **Richardson, R. (2022).** *A Multivariate Spatio-Temporal Model for County-Level Mortality Data in the Contiguous United States.* **Annals of Actuarial Science.** [Cambridge University Press link](https://www.cambridge.org/core/journals/annals-of-actuarial-science/article/multivariate-spatiotemporal-model-for-countylevel-mortality-data-in-the-contiguous-united-states/96BF901C0B6ADE8F434D404653B665C2)  
-• **Richardson, R. (2025).** *Mental Health and Mortality: Post-COVID Spatial Correlates in U.S. Counties.* **Journal of Insurance Issues.** [Taylor & Francis link](https://www.tandfonline.com/doi/abs/10.1080/10920277.2025.2463933)
+•  *Spatio-Temporal Mortality Modeling for the United States: A Hierarchical Bayesian Approach.* **Risks, 8(4), 117.** [MDPI link](https://www.mdpi.com/2227-9091/8/4/117)  
+•  *A Multivariate Spatio-Temporal Model for County-Level Mortality Data in the Contiguous United States.* **Annals of Actuarial Science.** [Cambridge University Press link](https://www.cambridge.org/core/journals/annals-of-actuarial-science/article/multivariate-spatiotemporal-model-for-countylevel-mortality-data-in-the-contiguous-united-states/96BF901C0B6ADE8F434D404653B665C2)  
+• *Cluster Leve Mortality Curves in the Continental United States* **North American Actuarial Journal** [Taylor & Francis link](https://www.tandfonline.com/doi/abs/10.1080/10920277.2025.2463933)
+•  *Quantifying the Effects of Mental Health on U.S. Suicide and Mortality Rates* **In Progress** 
 
 ## Highlights
 
@@ -39,7 +40,7 @@ Methods and full results are detailed in the peer-reviewed papers below:
 ---
 
 ### 4) Demographic drift: proportion white by sex over time
-![Proportion White by Year, Sex Panels](./images/RaceRaw.pdf)
+![Proportion White by Year, Sex Panels](./images/RaceRaw.png)
 
 **What it shows:** declining **proportion white** over 2000–2020 in both sexes, with different baselines by panel. Useful as a context plot for demographic composition changes referenced in the covariate section. (Derived from RaceRaw; see figure panels.) :contentReference[oaicite:4]{index=4}
 
