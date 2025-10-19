@@ -45,13 +45,21 @@ We can exmaine regions with elevated levels of suicide risk. We confirmed existi
 
 ---
 
+### Other discoveries
+
+We found a number of other relationships currently being explored, such as:
+1) Differences in socio-economic indicators such as house price on mortality between males and females,
+2) The effect of race of mortality, even in areas with similar levels of healthcare access mortality rates are much higher in regions with a lower percentage of whites
+3) Regional variation in the effects, e.g. in California, counties with higher unemployment have lower mortality whereas in the rest of the country higher unemployment has higher mortality. 
+
+
 ## Modeling (brief)
 
 We model deaths with a **binomial likelihood** and a **logit** link:
-$$
+\[
 \logit(\theta_{kt}) = \mathbf{x}_{kt}^\top \beta + \psi_{kt},\quad 
 \psi_{kt} = \phi_k + (\alpha + \delta_k)\cdot \tfrac{t - \bar t}{T}
-$$
+\]
 with **CAR priors** on the spatial intercept $\phi$ and county-specific slope deviations $\delta$, plus weakly-informative priors on fixed effects. This supports **spatial smoothing** and **time-trend pooling** across neighboring counties. (Full details, priors, and estimation notes—including CARBayesST implementation—are in the papers.) 
 
 We examine two families of questions:
