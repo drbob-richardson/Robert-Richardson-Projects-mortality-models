@@ -23,8 +23,8 @@ Methods and full results are detailed in the peer-reviewed papers below:
 
 ### 2) COVID vs. Post-COVID shifts by age & sex
 <div align="center">
-  <img src="./images/covid_impact_mf.jpg" alt="COVID-19 impact by age and sex" width="420"/>
-  <img src="./images/postcovid_impact_mf.jpg" alt="Post-COVID impact by age and sex" width="420"/>
+  <img src="./images/_cred_int_covidTRUE_male_female-2.jpg" alt="COVID-19 impact by age and sex" width="420"/>
+  <img src="./images/_cred_int_after_covidTRUE_male_female-2.jpg" alt="Post-COVID impact by age and sex" width="420"/>
 </div>
 
 **What it shows:** estimated **coefficients** for COVID (2020–2021) and **after-COVID** (2022–2023) by age and sex. In the paper, COVID effects shrink once post-COVID is included, and patterns differ by sex/age. See the discussion around the COVID indicators and Figures 6–7 in the manuscript. :contentReference[oaicite:2]{index=2}
@@ -32,14 +32,14 @@ Methods and full results are detailed in the peer-reviewed papers below:
 ---
 
 ### 3) Spatial baseline risk (ϕ): example stratum
-![Mean Spatial Effect (phi) – females 45–49](./images/phi_by_county_F10.jpeg)
+![Mean Spatial Effect (phi) – females 45–49](./images/phi_by_county_F10-2.jpeg)
 
 **What it shows:** posterior mean of **ϕ** (county-level baseline deviation) for a female age band. Note the broad corridor of elevated risk across the Mountain West and northern Plains—consistent with a “belt” seen in suicide literatures and our own spatial random-effect maps (see mapping figures and discussion). :contentReference[oaicite:3]{index=3}
 
 ---
 
 ### 4) Demographic drift: proportion white by sex over time
-![Proportion White by Year, Sex Panels](./images/race_raw_trend.png)
+![Proportion White by Year, Sex Panels](./images/RaceRaw.pdf)
 
 **What it shows:** declining **proportion white** over 2000–2020 in both sexes, with different baselines by panel. Useful as a context plot for demographic composition changes referenced in the covariate section. (Derived from RaceRaw; see figure panels.) :contentReference[oaicite:4]{index=4}
 
